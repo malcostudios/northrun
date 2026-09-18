@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import ProductGrid from './components/ProductGrid'
+import Performance from './components/Performance'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <ProductGrid />
+      <Performance />
 
     </div>  
   )
