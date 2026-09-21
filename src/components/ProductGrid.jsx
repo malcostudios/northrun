@@ -11,9 +11,9 @@ function ProductGrid() {
       if (selectedProduct) {
          console.log('Selected product: ', selectedProduct.name)
       }
-      document.title = selectedProduct
-         ? `${selectedProduct.name} - NORTHRUN`
-         : 'NORTHRUN'
+      // document.title = selectedProduct
+      //    ? `${selectedProduct.name} - NORTHRUN`
+      //    : 'NORTHRUN'
    }, [selectedProduct])
 
    const categories = [
