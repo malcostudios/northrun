@@ -43,6 +43,13 @@ const products = [
       image: 'https://images.unsplash.com/photo-1691315909393-c5c91e22760f',
       // badge: 'NEW',
    },
+   {
+      id: 7,
+      name: 'Trail Cap', 
+      category: 'Accessories',
+      price: '$45',
+      image: 'https://images.unsplash.com/photo-1620327467532-6ebaca6273ed',
+   },
 ]
 
 export default products

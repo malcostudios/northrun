@@ -6,7 +6,7 @@ function ProductCard ({ name, category, price, image, badge }) {
             <img
                src={image}
                alt={name}
-               className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+               className="h-full w-full object-cover transition duration-500 rounded-md group-hover:scale-105"
                />
          </div>
          <div className="mt-4 flex items-start justify-between gap-4">
