@@ -31,7 +31,7 @@ function ProductGrid() {
             (product) => product.category === activeCategory
          )
    return (
-      <section className="px-6 py-24">
+      <section id="collection" className="scroll-mt-20 px-6 py-24">
 
          {/* Header */}
          <div className='mb-10'>

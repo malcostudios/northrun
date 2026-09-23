@@ -4,23 +4,23 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <nav className="relative px-6 py-5">
+        <nav className="border-b border-neutral-900 px-6 py-5">
             <div className='flex items-center justify-between'>
                 {/* Logo */}
-                <h1 className="text-2xl font-bold tracking-tight">NORTHRUN</h1>
+                <h1 className="text-2xl font-bold tracking-[-0.04em]">NORTHRUN</h1>
 
                 {/* Desktop Navigation */}
-                <div className="hidden gap-6 md:flex">
-                    <a href="#" className='hover:text-lime-600 transition'>
+                <div className="hidden gap-8 text-sm text-gray-400 md:flex">
+                    <a href="#" className='hover:text-white transition'>
                         Men
                     </a>
-                    <a href="#" className='hover:text-lime-600 transition'>
+                    <a href="#" className='hover:text-white transition'>
                         Women
                     </a>
-                    <a href="#" className='hover:text-lime-600 transition'>
+                    <a href="#" className='hover:text-white transition'>
                         Trail
                     </a>
-                    <a href="#" className='hover:text-lime-600 transition'>
+                    <a href="#" className='hover:text-white transition'>
                         About
                     </a>
                 </div>
