@@ -72,3 +72,14 @@ src/
 │
 ├── App.jsx
 └── index.css
+```
+
+## Credits
+
+### UI Design
+** **
+UI Design concept and visual direction.
+
+### Development
+**Joshua Malco**
+ReactJS implementation, Tailwind CSS, responsive development, interactions, and deployment.
