@@ -1,16 +1,74 @@
-# React + Vite
+# NORTHRUN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NORTHRUN is a fictional outdoor performance sportwear brand created as a portfolio project.
 
-Currently, two official plugins are available:
+The project explores modern sportwear UI design combined with ReactJS and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Website
 
-## React Compiler
+https://malcostudios.github.io/northrun/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Overview
 
-## Expanding the ESLint configuration
+NORTHRUN is designed around the idea:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Find Your Distance.
+
+The website focuses on performance running and outdoor sportswear, combining a minimal interface with rugged outdoor-inspired visuals.
+
+## Features
+
+- Responsive navigation
+- Mobile hamburger menu
+- Responsive hero section
+- Product collection
+- Product category filtering
+- Interactive product selection
+- Dynamic browser title
+- Responsive performance section
+- Responsive layout
+- Hover interactions
+
+## Built With
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- Git
+- GitHub Pages
+
+## What I Learned
+
+This project helped me practice:
+
+- React components
+- Props
+- State management with `useState`
+- Side effects with `useEffect`
+- Conditional rendering
+- Array mapping and filtering
+- Responsive design
+- Tailwind CSS
+- Semantic HTML
+- Git and GitHub
+- Deployment with GitHub Pages
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── ProductCard.jsx
+│   ├── ProductGrid.jsx
+│   ├── Performance.jsx
+│   ├── BrandStatement.jsx
+│   └── Footer.jsx
+│
+├── data/
+│   └── products.js
+│
+├── App.jsx
+└── index.css
