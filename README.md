@@ -77,7 +77,7 @@ src/
 ## Credits
 
 ### UI Design
-** **
+**[Kristine Rein Palaroan](https://github.com/KristineRein)**
 UI Design concept and visual direction.
 
 ### Development
